@@ -64,3 +64,4 @@ def save_capture(elements, screenshot):
         f.write(screenshot)
 
     print(f"Saved capture to: {output_dir}")
+    return output_dir

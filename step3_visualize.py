@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from PIL import ImageDraw
-from PIL import Image
 
 def build_episode(original_image, annotations):
     episode = {
