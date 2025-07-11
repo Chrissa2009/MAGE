@@ -1,0 +1,596 @@
+[
+  {
+    "type": "input",
+    "label": "Search",
+    "bbox": [
+      1080,
+      11,
+      160,
+      35
+    ],
+    "selector": "input[type='text'], input[type='search'], input[type='email'], textarea"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      40,
+      18,
+      24,
+      24
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "One Page Love",
+    "bbox": [
+      72,
+      18,
+      108.578125,
+      19
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Inspiration",
+    "bbox": [
+      327,
+      0,
+      102.0625,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Templates",
+    "bbox": [
+      435.9375,
+      0,
+      101.328125,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Resources",
+    "bbox": [
+      544.140625,
+      0,
+      102.03125,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Info",
+    "bbox": [
+      653.046875,
+      0,
+      54.765625,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Hire",
+    "bbox": [
+      714.6875,
+      0,
+      56.734375,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Build a One Pager",
+    "bbox": [
+      778.296875,
+      0,
+      154.40625,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      870.015625,
+      56,
+      369.984375,
+      56
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Unique Inspiration",
+    "bbox": [
+      714.578125,
+      207,
+      159.21875,
+      22
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Find Templates",
+    "bbox": [
+      340,
+      207,
+      598.625,
+      49
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "INSPIRATION NEWSLETTER",
+    "bbox": [
+      340,
+      302,
+      200.453125,
+      33
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      40,
+      455,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Make Garden",
+    "bbox": [
+      40,
+      967.765625,
+      101.203125,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      397.328125,
+      968.765625,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      453.328125,
+      455,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "AthenaDAO\u2019s Data & Wearables Report",
+    "bbox": [
+      453.328125,
+      967.765625,
+      294.28125,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      810.65625,
+      968.765625,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Annual Report",
+    "bbox": [
+      453.328125,
+      994.765625,
+      88.421875,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Case Study",
+    "bbox": [
+      541.75,
+      994.765625,
+      74.828125,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Informational",
+    "bbox": [
+      616.578125,
+      994.765625,
+      82.609375,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      866.65625,
+      455,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "FIFA World Cup 2026 NYNJ",
+    "bbox": [
+      866.65625,
+      967.765625,
+      208.34375,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      1223.984375,
+      968.765625,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Event",
+    "bbox": [
+      866.65625,
+      994.765625,
+      44.84375,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Informational",
+    "bbox": [
+      911.5,
+      994.765625,
+      82.609375,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Sport",
+    "bbox": [
+      994.109375,
+      994.765625,
+      44.265625,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      40,
+      1065.765625,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Pawe\u0142 Ludwiczak",
+    "bbox": [
+      40,
+      1578.53125,
+      131.71875,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      397.328125,
+      1579.53125,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Portfolio",
+    "bbox": [
+      40,
+      1605.53125,
+      59.125,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      453.328125,
+      1065.765625,
+      373.328125,
+      279.515625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Christian Baun",
+    "bbox": [
+      453.328125,
+      1360.28125,
+      112.375,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      810.65625,
+      1361.28125,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Personal",
+    "bbox": [
+      453.328125,
+      1387.28125,
+      60.1875,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "R\u00e9sum\u00e9",
+    "bbox": [
+      513.515625,
+      1387.28125,
+      56.890625,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      866.65625,
+      1065.765625,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Safebox",
+    "bbox": [
+      866.65625,
+      1578.53125,
+      62.640625,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      1223.984375,
+      1579.53125,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Finance",
+    "bbox": [
+      866.65625,
+      1605.53125,
+      56,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "SaaS",
+    "bbox": [
+      922.65625,
+      1605.53125,
+      42.046875,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Startup",
+    "bbox": [
+      964.703125,
+      1605.53125,
+      54.09375,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      40,
+      1676.53125,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Orbi",
+    "bbox": [
+      40,
+      2189.296875,
+      32.78125,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      397.328125,
+      2190.296875,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Launching Soon",
+    "bbox": [
+      40,
+      2216.296875,
+      97.890625,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "SaaS",
+    "bbox": [
+      137.890625,
+      2216.296875,
+      42.046875,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      453.328125,
+      1676.53125,
+      373.328125,
+      497.765625
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Klook",
+    "bbox": [
+      453.328125,
+      2189.296875,
+      43.34375,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": null,
+    "bbox": [
+      810.65625,
+      2190.296875,
+      18,
+      20
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Experimental",
+    "bbox": [
+      453.328125,
+      2216.296875,
+      82.359375,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "link",
+    "label": "Single Serving",
+    "bbox": [
+      535.6875,
+      2216.296875,
+      89.0625,
+      11
+    ],
+    "selector": "a"
+  },
+  {
+    "type": "searchbox",
+    "label": "Search",
+    "bbox": [
+      1080,
+      11,
+      160,
+      35
+    ],
+    "selector": "input[type='search'], .search-box, .search-input"
+  }
+]
