@@ -1,7 +1,7 @@
 import os, asyncio
 from playwright.async_api import async_playwright
 from urllib.parse import urlparse
-from mutator import add_distractor
+from mutator import add_distractor, shuffle_siblings
 
 async def main():
     # Step 1: Scrape html
@@ -24,10 +24,16 @@ async def main():
         f.write(original_html)
     
     # Add distractor
-    mutated_html = add_distractor(original_html, 0.5)
+    distracted_html = add_distractor(original_html, 0.5)
     filename = f"{domain}_distracted.html"
     with open(os.path.join(output_dir, filename), "w", encoding='utf-8') as f:
-        f.write(mutated_html)
+        f.write(distracted_html)
+
+    # Shuffle siblings
+    shuffled_html = shuffle_siblings(original_html)
+    filename = f"{domain}_shuffled.html"
+    with open(os.path.join(output_dir, filename), "w", encoding='utf-8') as f:
+        f.write(shuffled_html)
 
 if __name__ == '__main__':
     asyncio.run(main())
