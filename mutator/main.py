@@ -1,12 +1,19 @@
 from collections import defaultdict
-import os, asyncio
+import os, asyncio, csv
 from playwright.async_api import async_playwright
 from urllib.parse import urlparse
 from mutator import add_distractor, shuffle_siblings
 
 MUTATION_MAX_FREQ = {'distractor':10, 'shuffle':10, "original": 1}
 DISTRACTOR_PERCENTAGE = 0.5
-URLS = ['https://www.google.com']
+
+URLS = []
+csv_file_path = os.path.join(os.getcwd(), 'top_100_websites.csv')
+
+with open(csv_file_path, mode='r', encoding='utf-8') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        URLS.append(row['URL'])
 
 async def main():
     data_dir = os.path.join(os.getcwd(), 'data')
