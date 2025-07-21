@@ -68,4 +68,4 @@ python template_generator.py
 
 ## 📌 License
 
-This project is released under the **MIT License © 2025 Chrissa da Gomez**.
+This project is released under the **MIT License**
