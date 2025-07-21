@@ -1,4 +1,4 @@
 # Playwright
 .github/
 __pycache__/
-mutator/google/
+mutator/data/**/*
