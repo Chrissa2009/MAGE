@@ -1,4 +1,3 @@
-# Playwright
 .github/
 __pycache__/
 mutator/data/**/*

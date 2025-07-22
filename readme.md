@@ -2,49 +2,46 @@
 
 **MAGE** is a framework for generating realistic, diverse, and reusable HTML datasets. It is designed to support research and applications involving GUI navigation, visual grounding, or front-end testing by creating high-quality synthetic web data.
 
-## 🔧 Project Modules
+### 🔁 What It Does
 
-MAGE consists of three modular components:
+MAGE takes raw HTML scraped from real websites and programmatically generates diverse variants by applying two types of mutations:
 
-### 1. **Template Generator**
-Scrapes raw HTML pages using Playwright and extracts a reusable HTML structure with annotated placeholders.
+1. **Distractor Insertion**  
+   Adds extra interactive elements (e.g., buttons, links) with misleading or random labels to increase the visual complexity of the interface.
 
-- **Status**: ✅ Complete  
-- **Run**:  
-  ```bash
-  python template_generator.py
-  ```
+2. **Sibling Shuffling**  
+   Randomly reorders adjacent interactive elements (e.g., buttons, inputs) within the same parent container to alter layout structure while preserving content.
 
-### 2. **Mutator**
+These operations help simulate realistic variations in HTML for robustness testing and data augmentation.
 
-Takes base templates and programmatically generates diverse layout variants by modifying or duplicating components (e.g., buttons, links, containers).
+### 🧪 Example Mutations
+Below are visual examples of HTML mutations performed by the Mutator:
 
-- **Status**: 🔧 In progress
+**Original HTML**
+![Original](assets/google_original.png)
 
-**Examples of mutations:**
-- Duplicating action buttons  
-- Adding/removing sections  
-- Swapping layout elements
+---
 
-### 3. **Filler**
+**Distractor Mutation**—Inserts extra interactive elements (e.g., "Try Me", "Cancel", "Nope") near buttons and links to introduce noise.
 
-Populates template placeholders with realistic fake content using libraries like `Faker`, enabling dataset generation for training or UI testing.
+![Distractor](assets/google_distractor.png)
 
-- **Status**: 🔧 In progress
+---
 
-**Features:**
-- Generates human-readable dummy content  
-- Supports multiple field types (text, links, images)
+**Sibling Shuffle Mutation**—Shuffles the order of adjacent interactive elements (e.g., buttons) to vary layout while preserving functionality.
+
+![Shuffle](assets/google_shuffle.png)
 
 ## 📁 Project Structure
 - **MAGE/**
-  - `template_generator.py` - Scrapes and creates base HTML templates
-  - `base_templates/` - Output templates with placeholders
-  - `raw_html/` - Raw HTML snapshots
-  - `clean_html/` - Cleaned HTML after processing
-  - `screenshots/` - Screenshots of scraped pages
-  - `mutator.py` - [WIP] Mutates base templates
-  - `filler.py` - [WIP] Fills mutated templates with fake data
+  - `main.py` - Entrypoint for scraping HTML and applying mutations
+  - `mutator.py` - Applies HTML mutations: distractor insertion and sibling shuffling
+  - `top_100_websites.csv` - List of target websites to scrape
+  - `data/` - Output folder containing original and mutated HTML files
+    - `website1/`
+      - `original/` - Unmodified HTML from the website
+      - `distractor/` - HTML with added distractor elements
+      - `shuffle/` - HTML with shuffled sibling elements
 
 ## 🛠️ Setup Instructions
 
@@ -54,10 +51,14 @@ pip install -r requirements.txt
 playwright install
 ```
 
-### 2. Run the template generator:
+### 2. Run the mutator:
 ```bash
-python template_generator.py
+python main.py
 ```
+This will:
+- Scrape HTML from websites in top_100_websites.csv
+- Save original HTML
+- Generate and save mutated variants using both mutation types
 
 ## 🚀 Use Cases
 
@@ -68,4 +69,4 @@ python template_generator.py
 
 ## 📌 License
 
-This project is released under the **MIT License**
+This project is released under the **MIT License**.
